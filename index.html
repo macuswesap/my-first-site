@@ -1,15 +1,66 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My First GitHub Pages Site</title>
+    <title>Profile page!</title>
   </head>
   <body>
-    <h1>Hola, everyone!</h1>
-    <p>This is my first FIRST website hosted on GitHub Pages.</p>
-    <p>This is a testing paragraph yayayy! This is going to be uploaded to github</p>
+    <nav>
+        <!-- Jump to sections -->
+          <a href="#gallery">Jump to Gallery</a> 
+          <a href="#schedule">Jump to Schedule</a> 
+    </nav>
+    <link rel="stylesheet" href="styles.css">
+    <h1 class = "primary"><em>This is a profile page about me</em></h1>
+    <h2 class = "secondary">Self Intro</h2>
+    <div class = "Secondary">
+        <p>I am a rising junior studying in America, and my favorite subjects include physics and math. I am currently taking the computer science summer program at upenn<p></p>
+    </div>
+    <section id="gallery"> </section>
+    <!-- Gallery of images -->
+      <h2>I am in the UPenn ESAP program</h2>
+      <div>
+        <img src="https://esap.engineering.upenn.edu/wp-content/uploads/2025/09/ESAP_new@4x-scaled.png" alt="Tung tung 1" width="300">
+      </div>
+    
+    <h2 class = "Main">List of drinks that I really like</h2>
+    <ol class = "Main">
+      <li><strong>Milk</strong> Tea</li>
+      <li>Asian Drinks</li> 
+      <!-- Nested List -->
+      <ol>
+        <li>Thai Iced Milk Tea</li>
+        <li>Japenese Matcha</li>
+        <li>Taiwanese Boba</li>
+      </ol>
+      <li>Iced Latte</li>
+    </ol>
+    <h2>Here is my game report as well as my pandas project notebook</h2>
+    <div>
+      <li><a href="/Users/macuswu/Desktop/ESAP/minimax bot report/minimaxreportFINAL.pdf://www.youtube.com">Click here to visit my game report</a></li>
+      <li><a href="/Users/macuswu/Desktop/ESAP/pandas project/data_notebook.ipynb">Click here to visit my pandas project on crime data</a></li>
+    </div>
+    <section id="schedule"> </section>
+    <table>
+      <tr>
+        <th>Task assignment</th>
+        <th>Deadline</th>
+        <th>Progress</th>
+      </tr>
+      <tr>
+        <td>CS writing paper report</td>
+        <td>Jul 29</td>
+        <td>49%</td>
+      </tr>
+      <tr>
+        <td>HTML project</td>
+        <td><strong>Today</strong>, urgent!</td>
+        <td>80%</td>
+      </tr>
+      <tr>
+        <td>SAT vocab</td>
+        <td>Aug 2</td>
+        <td>50%</td>
+      </tr>
+    </table>
   </body>
-</html>
-
-<!-- 
-git commit -m "Adding one testing paragraph to index.html"
--->
+</html> 
