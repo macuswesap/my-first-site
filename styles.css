@@ -1,0 +1,19 @@
+.primary {
+    color: #224f26;
+  }
+  .Secondary {
+    color: #162969;
+  }
+  .Accent {
+    color: #77c97e;
+    height: 100px;
+    width: 200px;
+  }
+  .Decor {
+    color: #113614;
+    height: 100px;
+    width: 200px;
+  }
+  .Main {
+    color: #57401b;
+  }
